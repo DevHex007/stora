@@ -19,13 +19,13 @@ function Header() {
       <div className="flex items-center justify-center md:w-1/5">
         <Link href="/">
           <div className="relative h-[100px] w-[150px] cursor-pointer opacity-75 transition hover:opacity-100">
-          <Image 
+         {/*  <Image 
               src="/logo.png" 
               width={200}
               height={100} 
               alt="apple" 
           />
-            {/* <Image
+            <Image
               src="https://rb.gy/vsvv2o"
               layout="fill"
               objectFit="contain"
